@@ -9,7 +9,7 @@ This is a **Python-Streamlit-based Expense & Budget Tracker**, designed as a com
 ## 🔧 Setup Instructions
 
 **1. Clone or Download the Application Folder:**  
-Download or clone the folder containing `streamlit_app.py`, `requirements.txt`, and `README.md`.
+Download or clone the folder containing `app.py`, `requirements.txt`, and `README.md`.
 
 **2. Install Python Requirements:**  
 Ensure Python 3.7+ is installed. Then install the dependencies:
@@ -20,7 +20,7 @@ pip install streamlit pandas
 **3. Launch the Application:**  
 Navigate to the folder where the app is located and run:
 ```
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 This will launch the app in your default browser at:  
 [http://localhost:8501](http://localhost:8501)
@@ -29,7 +29,7 @@ This will launch the app in your default browser at:
 
 ## 🧪 Test Steps to Validate the Application
 
-1. Open the application using `streamlit run streamlit_app.py`.
+1. Open the application using `streamlit run app.py`.
 2. Go to **Set Budget** and set budget values for each category for the current month.
 3. Navigate to **Add Expense** and log expenses under the same categories.
 4. Go to **Monthly Summary** and verify:
